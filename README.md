@@ -9,6 +9,14 @@ keepuniqは、標準入力から受け取った文章の中から重複してい
 - 最初に出てきた行の順番を維持する
 - 標準入力と標準出力を使用する
 
+## インストール
+
+以下のコマンドでGitHubから取得します。
+
+```bash
+git clone https://github.com/s21c1097xt-lgtm/keepuniq.git
+cd keepuniq
+
 ## 使用方法
 
 以下のように実行します。
