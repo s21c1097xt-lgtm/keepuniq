@@ -1,4 +1,5 @@
-## keepuniq
+# keepuniq
+
 ## 概要
 
 keepuniqは、標準入力から受け取った文章の中から重複している行を取り除き、標準出力に表示するコマンドです。
@@ -16,18 +17,19 @@ keepuniqは、標準入力から受け取った文章の中から重複してい
 ```bash
 git clone https://github.com/s21c1097xt-lgtm/keepuniq.git
 cd keepuniq
+```
 
 ## 使用方法
 
 以下のように実行します。
 
-```
+```bash
 printf "apple\nbanana\napple\norange\n" | ./keepuniq
 ```
 
 実行結果：
 
-```
+```text
 apple
 banana
 orange
