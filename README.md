@@ -1,5 +1,4 @@
-# keepuniq
-
+## keepuniq
 ## 概要
 
 keepuniqは、標準入力から受け取った文章の中から重複している行を取り除き、標準出力に表示するコマンドです。
@@ -15,7 +14,7 @@ keepuniqは、標準入力から受け取った文章の中から重複してい
 以下のように実行します。
 
 ```
-printf "apple\nbanana\napple\norange\nbanana\n" | python3 keepuniq
+printf "apple\nbanana\napple\norange\n" | ./keepuniq
 ```
 
 実行結果：
