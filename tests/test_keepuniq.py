@@ -1,3 +1,5 @@
+# Copyright (c) 2026 Kentaro Harata
+# SPDX-License-Identifier: MIT
 import subprocess
 import sys
 import unittest
